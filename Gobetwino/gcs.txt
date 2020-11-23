@@ -1,0 +1,14 @@
+'Predefined commands that has no parametres or only external parametres
+#S|T|TIME|[]#
+#S|D|DATE|[]#
+#S|SENDK|SENDK|[$1&$2]#
+
+
+
+#S|LOGTEST|LGFIL|[D:\Programming\Arduino\testlog.txt&$1&0]#
+
+
+#S|STEPPERF|LGFIL|[D:\Programming\Contest\stepperf.txt&$1&0]#
+
+#S|HALL|LGFIL|[D:\Programming\Contest\Hall.txt&$1&0]#
+
