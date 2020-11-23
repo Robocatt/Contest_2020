@@ -22032,3 +22032,5 @@
 22.11.2020 22:54:09,Command parsed OK
 22.11.2020 22:54:09,Executing command : STEPPERF
 22.11.2020 22:54:09,Data logged to D:\Programming\Contest\stepperf.txt
+23.11.2020 21:01:24,Can not open serial port : COM4
+23.11.2020 21:01:24,Порт 'COM4' не существует.

@@ -41,7 +41,7 @@ with open('stepperf.txt', 'tw', encoding='utf-8') as p:
     pass
 
 
-os.system(r'D:/Programming/Contest/Gobetwino/Gobetwino.exe')
+os.system(r'D:/Programming/Contest_2020/Gobetwino/Gobetwino.exe')
 
 
 
@@ -67,13 +67,13 @@ os.system(r'D:/Programming/Contest/Gobetwino/Gobetwino.exe')
 
 
 x=[]
-with open('D:\Programming\Contest\stepperf.txt','r') as a:
+with open('D:\Programming\Contest_2020\stepperf.txt','r') as a:
     for line in a:
         x.append(int(line.strip()))
 x =np.array(x)
 
 y=[]
-with open('D:\Programming\Contest\Hall.txt','r') as b:
+with open('D:\Programming\Contest_2020\Hall.txt','r') as b:
     for line in b:
         y.append(int(line.strip()))
 y  = np.array(y)
