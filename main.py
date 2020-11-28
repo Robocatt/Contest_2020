@@ -25,8 +25,8 @@ import psutil
 for process in (process for process in psutil.process_iter() if process.name() == "Gobetwino"): process.kill()
 '''
 
-import time
-import os
+
+import subprocess
 import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
@@ -41,25 +41,13 @@ with open('stepperf.txt', 'tw', encoding='utf-8') as p:
     pass
 
 
-os.system(r'D:/Programming/Contest_2020/Gobetwino/Gobetwino.exe')
+
+
+subprocess.call(["D:/Programming/Contest_2020/Gobetwino/Gobetwino.exe"], timeout=12)
 
 
 
 
-
-
-
-
-
-
-
-
-
-#time.sleep(12)
-
-
-
-#os.system('taskkill /pid ')
 
 
 
@@ -67,13 +55,16 @@ os.system(r'D:/Programming/Contest_2020/Gobetwino/Gobetwino.exe')
 
 
 x=[]
-with open('D:\Programming\Contest_2020\stepperf.txt','r') as a:
+with open('D:/Programming/Contest_2020/stepperf.txt','r') as a:
     for line in a:
         x.append(int(line.strip()))
 x =np.array(x)
 
+
+
+
 y=[]
-with open('D:\Programming\Contest_2020\Hall.txt','r') as b:
+with open('D:/Programming/Contest_2020/Hall.txt','r') as b:
     for line in b:
         y.append(int(line.strip()))
 y  = np.array(y)

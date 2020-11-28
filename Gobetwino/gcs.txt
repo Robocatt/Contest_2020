@@ -8,7 +8,9 @@
 #S|LOGTEST|LGFIL|[D:\Programming\Arduino\testlog.txt&$1&0]#
 
 
-#S|STEPPERF|LGFIL|[D:\Programming\Contest\stepperf.txt&$1&0]#
+#S|STEPPERF|LGFIL|[D:\Programming\Contest_2020\stepperf.txt&$1&0]#
 
-#S|HALL|LGFIL|[D:\Programming\Contest\Hall.txt&$1&0]#
+
+#S|HALL|LGFIL|[D:\Programming\Contest_2020\Hall.txt&$1&0]#
+
 
