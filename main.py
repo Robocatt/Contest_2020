@@ -1,5 +1,3 @@
-
-
 import subprocess
 import numpy as np
 import matplotlib.pyplot as plt
@@ -9,8 +7,8 @@ import pandas as pd
 
 open('D:/Programming/Contest_2020/Hall.txt', 'w').close()
 open('D:/Programming/Contest_2020/stepperf.txt', 'w').close()
+subprocess.Popen('D:\Programming\Contest_2020\start.bat', cwd='D:\Programming\Contest_2020', creationflags=subprocess.CREATE_NEW_CONSOLE)
 subprocess.call("D:/Programming/Contest_2020/Gobetwino/Gobetwino.exe")
-
 
 x=[]
 with open('D:/Programming/Contest_2020/stepperf.txt','r') as f:
