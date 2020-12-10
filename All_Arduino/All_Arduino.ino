@@ -4,7 +4,7 @@
    #define IN3 10
    #define IN4 11
    AccelStepper stepper(8, IN1, IN3, IN2, IN4);
-#define SENSOR_PIN A5
+#define SENSOR_PIN A0
 #define PERIOD_1 400
 int i = 0;
 int j = 0;
@@ -28,18 +28,18 @@ G++;
 if(stepper.distanceToGo()!=0){
   float val = analogRead(SENSOR_PIN);
 Serial.print("#S|HALL|[");
-Serial.print(itoa((val/128), buffer, 10));
+Serial.print(val/210);
 Serial.println("]#");
 Serial.print("#S|STEPPERF|[");
 Serial.print(itoa((stepper.currentPosition()*360/4075), buffer, 10));
 Serial.println("]#");
-Serial.print(val/228);
+
 }
     }
 if (stepper.distanceToGo()==0 and n !=1){
   float val = analogRead(SENSOR_PIN);
  Serial.print("#S|HALL|[");
-Serial.print(itoa((val/228), buffer, 10));
+Serial.print(val/210);
 Serial.println("]#");
   n++;
   }
