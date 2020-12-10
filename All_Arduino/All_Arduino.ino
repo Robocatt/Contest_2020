@@ -26,19 +26,20 @@ G++;
     if (millis()- time1 > PERIOD_1){    
     time1 = millis();
 if(stepper.distanceToGo()!=0){
-  int val = analogRead(SENSOR_PIN);
+  float val = analogRead(SENSOR_PIN);
 Serial.print("#S|HALL|[");
-Serial.print(itoa((val), buffer, 10));
+Serial.print(itoa((val/128), buffer, 10));
 Serial.println("]#");
 Serial.print("#S|STEPPERF|[");
 Serial.print(itoa((stepper.currentPosition()*360/4075), buffer, 10));
 Serial.println("]#");
+Serial.print(val/228);
 }
     }
 if (stepper.distanceToGo()==0 and n !=1){
-  int val = analogRead(SENSOR_PIN);
+  float val = analogRead(SENSOR_PIN);
  Serial.print("#S|HALL|[");
-Serial.print(itoa((val), buffer, 10));
+Serial.print(itoa((val/228), buffer, 10));
 Serial.println("]#");
   n++;
   }
