@@ -20,7 +20,7 @@ stepper.setAcceleration(600.0);
 }
    void loop(){
 if (G == 0){
-stepper.move(4075);
+stepper.move(4076);
 G++;
 }
     if (millis()- time1 > PERIOD_1){    
@@ -28,10 +28,10 @@ G++;
 if(stepper.distanceToGo()!=0){
   float val = analogRead(SENSOR_PIN);
 Serial.print("#S|HALL|[");
-Serial.print(val/210);
+Serial.print((((1.4*abs(val-512))/512)/1.4));
 Serial.println("]#");
 Serial.print("#S|STEPPERF|[");
-Serial.print(itoa((stepper.currentPosition()*360/4075), buffer, 10));
+Serial.print(itoa((stepper.currentPosition()*360/4076), buffer, 10));
 Serial.println("]#");
 
 }
@@ -39,13 +39,13 @@ Serial.println("]#");
 if (stepper.distanceToGo()==0 and n !=1){
   float val = analogRead(SENSOR_PIN);
  Serial.print("#S|HALL|[");
-Serial.print(val/210);
+Serial.print((((1.4*abs(val-512))/512)/1.4));
 Serial.println("]#");
   n++;
   }
 if (stepper.distanceToGo()==0 and G == 1 and j == 0) {
    Serial.print("#S|STEPPERF|[");
-Serial.print(itoa((stepper.currentPosition()*360/4075), buffer, 10));
+Serial.print(itoa((stepper.currentPosition()*360/4076), buffer, 10));
 Serial.println("]#");
    j++;
   }
