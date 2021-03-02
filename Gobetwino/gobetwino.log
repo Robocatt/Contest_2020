@@ -69520,3 +69520,164 @@
 20.12.2020 20:03:18,Command parsed OK
 20.12.2020 20:03:18,Executing command : STEPPERF
 20.12.2020 20:03:18,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:51,Serial port : COM4 opened at 9600 baud
+22.12.2020 12:26:53,Commandstring recieved : #S|HALL|[0.06]#
+22.12.2020 12:26:53,Command parsed OK
+22.12.2020 12:26:53,Executing command : HALL
+22.12.2020 12:26:53,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:53,Commandstring recieved : #S|STEPPERF|[4]#
+22.12.2020 12:26:53,Command parsed OK
+22.12.2020 12:26:53,Executing command : STEPPERF
+22.12.2020 12:26:53,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:53,Commandstring recieved : #S|HALL|[0.09]#
+22.12.2020 12:26:53,Command parsed OK
+22.12.2020 12:26:53,Executing command : HALL
+22.12.2020 12:26:53,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:53,Commandstring recieved : #S|STEPPERF|[17]#
+22.12.2020 12:26:53,Command parsed OK
+22.12.2020 12:26:53,Executing command : STEPPERF
+22.12.2020 12:26:53,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:53,Commandstring recieved : #S|HALL|[0.14]#
+22.12.2020 12:26:53,Command parsed OK
+22.12.2020 12:26:53,Executing command : HALL
+22.12.2020 12:26:54,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:54,Commandstring recieved : #S|STEPPERF|[38]#
+22.12.2020 12:26:54,Command parsed OK
+22.12.2020 12:26:54,Executing command : STEPPERF
+22.12.2020 12:26:54,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:54,Commandstring recieved : #S|HALL|[0.25]#
+22.12.2020 12:26:54,Command parsed OK
+22.12.2020 12:26:54,Executing command : HALL
+22.12.2020 12:26:54,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:54,Commandstring recieved : #S|STEPPERF|[59]#
+22.12.2020 12:26:54,Command parsed OK
+22.12.2020 12:26:54,Executing command : STEPPERF
+22.12.2020 12:26:54,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:54,Commandstring recieved : #S|HALL|[0.25]#
+22.12.2020 12:26:54,Command parsed OK
+22.12.2020 12:26:54,Executing command : HALL
+22.12.2020 12:26:54,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:54,Commandstring recieved : #S|STEPPERF|[80]#
+22.12.2020 12:26:54,Command parsed OK
+22.12.2020 12:26:54,Executing command : STEPPERF
+22.12.2020 12:26:54,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:55,Commandstring recieved : #S|HALL|[0.21]#
+22.12.2020 12:26:55,Command parsed OK
+22.12.2020 12:26:55,Executing command : HALL
+22.12.2020 12:26:55,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:55,Commandstring recieved : #S|STEPPERF|[101]#
+22.12.2020 12:26:55,Command parsed OK
+22.12.2020 12:26:55,Executing command : STEPPERF
+22.12.2020 12:26:55,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:55,Commandstring recieved : #S|HALL|[0.14]#
+22.12.2020 12:26:55,Command parsed OK
+22.12.2020 12:26:55,Executing command : HALL
+22.12.2020 12:26:55,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:55,Commandstring recieved : #S|STEPPERF|[122]#
+22.12.2020 12:26:55,Command parsed OK
+22.12.2020 12:26:55,Executing command : STEPPERF
+22.12.2020 12:26:55,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:55,Commandstring recieved : #S|HALL|[0.13]#
+22.12.2020 12:26:56,Command parsed OK
+22.12.2020 12:26:56,Executing command : HALL
+22.12.2020 12:26:56,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:56,Commandstring recieved : #S|STEPPERF|[144]#
+22.12.2020 12:26:56,Command parsed OK
+22.12.2020 12:26:56,Executing command : STEPPERF
+22.12.2020 12:26:56,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:56,Commandstring recieved : #S|HALL|[0.11]#
+22.12.2020 12:26:56,Command parsed OK
+22.12.2020 12:26:56,Executing command : HALL
+22.12.2020 12:26:56,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:56,Commandstring recieved : #S|STEPPERF|[165]#
+22.12.2020 12:26:56,Command parsed OK
+22.12.2020 12:26:56,Executing command : STEPPERF
+22.12.2020 12:26:56,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:56,Commandstring recieved : #S|HALL|[0.11]#
+22.12.2020 12:26:56,Command parsed OK
+22.12.2020 12:26:56,Executing command : HALL
+22.12.2020 12:26:56,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:56,Commandstring recieved : #S|STEPPERF|[186]#
+22.12.2020 12:26:56,Command parsed OK
+22.12.2020 12:26:56,Executing command : STEPPERF
+22.12.2020 12:26:56,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:57,Commandstring recieved : #S|HALL|[0.16]#
+22.12.2020 12:26:57,Command parsed OK
+22.12.2020 12:26:57,Executing command : HALL
+22.12.2020 12:26:57,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:57,Commandstring recieved : #S|STEPPERF|[207]#
+22.12.2020 12:26:57,Command parsed OK
+22.12.2020 12:26:57,Executing command : STEPPERF
+22.12.2020 12:26:57,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:57,Commandstring recieved : #S|HALL|[0.18]#
+22.12.2020 12:26:57,Command parsed OK
+22.12.2020 12:26:57,Executing command : HALL
+22.12.2020 12:26:57,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:57,Commandstring recieved : #S|STEPPERF|[228]#
+22.12.2020 12:26:57,Command parsed OK
+22.12.2020 12:26:57,Executing command : STEPPERF
+22.12.2020 12:26:57,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:58,Commandstring recieved : #S|HALL|[0.43]#
+22.12.2020 12:26:58,Command parsed OK
+22.12.2020 12:26:58,Executing command : HALL
+22.12.2020 12:26:58,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:58,Commandstring recieved : #S|STEPPERF|[250]#
+22.12.2020 12:26:58,Command parsed OK
+22.12.2020 12:26:58,Executing command : STEPPERF
+22.12.2020 12:26:58,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:58,Commandstring recieved : #S|HALL|[0.22]#
+22.12.2020 12:26:58,Command parsed OK
+22.12.2020 12:26:58,Executing command : HALL
+22.12.2020 12:26:58,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:58,Commandstring recieved : #S|STEPPERF|[271]#
+22.12.2020 12:26:58,Command parsed OK
+22.12.2020 12:26:58,Executing command : STEPPERF
+22.12.2020 12:26:58,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:58,Commandstring recieved : #S|HALL|[0.12]#
+22.12.2020 12:26:58,Command parsed OK
+22.12.2020 12:26:58,Executing command : HALL
+22.12.2020 12:26:58,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:58,Commandstring recieved : #S|STEPPERF|[292]#
+22.12.2020 12:26:58,Command parsed OK
+22.12.2020 12:26:58,Executing command : STEPPERF
+22.12.2020 12:26:58,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:59,Commandstring recieved : #S|HALL|[0.07]#
+22.12.2020 12:26:59,Command parsed OK
+22.12.2020 12:26:59,Executing command : HALL
+22.12.2020 12:26:59,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:59,Commandstring recieved : #S|STEPPERF|[313]#
+22.12.2020 12:26:59,Command parsed OK
+22.12.2020 12:26:59,Executing command : STEPPERF
+22.12.2020 12:26:59,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:26:59,Commandstring recieved : #S|HALL|[0.06]#
+22.12.2020 12:26:59,Command parsed OK
+22.12.2020 12:26:59,Executing command : HALL
+22.12.2020 12:26:59,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:26:59,Commandstring recieved : #S|STEPPERF|[334]#
+22.12.2020 12:26:59,Command parsed OK
+22.12.2020 12:26:59,Executing command : STEPPERF
+22.12.2020 12:26:59,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:27:00,Commandstring recieved : #S|HALL|[0.06]#
+22.12.2020 12:27:00,Command parsed OK
+22.12.2020 12:27:00,Executing command : HALL
+22.12.2020 12:27:00,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:27:00,Commandstring recieved : #S|STEPPERF|[351]#
+22.12.2020 12:27:00,Command parsed OK
+22.12.2020 12:27:00,Executing command : STEPPERF
+22.12.2020 12:27:00,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:27:00,Commandstring recieved : #S|HALL|[0.08]#
+22.12.2020 12:27:00,Command parsed OK
+22.12.2020 12:27:00,Executing command : HALL
+22.12.2020 12:27:00,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:27:00,Commandstring recieved : #S|STEPPERF|[359]#
+22.12.2020 12:27:00,Command parsed OK
+22.12.2020 12:27:00,Executing command : STEPPERF
+22.12.2020 12:27:00,Data logged to D:\Programming\Contest_2020\stepperf.txt
+22.12.2020 12:27:00,Commandstring recieved : #S|HALL|[0.09]#
+22.12.2020 12:27:00,Command parsed OK
+22.12.2020 12:27:00,Executing command : HALL
+22.12.2020 12:27:00,Data logged to D:\Programming\Contest_2020\Hall.txt
+22.12.2020 12:27:00,Commandstring recieved : #S|STEPPERF|[360]#
+22.12.2020 12:27:00,Command parsed OK
+22.12.2020 12:27:00,Executing command : STEPPERF
+22.12.2020 12:27:00,Data logged to D:\Programming\Contest_2020\stepperf.txt
