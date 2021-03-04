@@ -1,7 +1,7 @@
 showStatusMessages=-1
 ShowStatusLevel=3
 logStatusMessages=-1
-serialPortName=COM4
+serialPortName=COM3
 serialPortbaud=9600
 serialPortDataBits=8
 serialPortParity=0

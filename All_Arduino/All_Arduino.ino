@@ -49,5 +49,7 @@ Serial.print(itoa((stepper.currentPosition()*360/4076), buffer, 10));
 Serial.println("]#");
    j++;
   }
- stepper.run();
+stepper.run();
+
+
    }
