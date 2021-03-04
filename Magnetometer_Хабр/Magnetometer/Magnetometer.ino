@@ -20,6 +20,7 @@ Adafruit_SSD1306 display(128,64,&Wire,-1);
 float offset=511.0; // nominal 511: halfway 0 and 1024
 
 void setup() {
+  Serial.begin(9600);
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
   display.setTextColor(WHITE);
   display.clearDisplay();
@@ -74,5 +75,8 @@ void loop() {
   display.print(txt);
 
   display.display();
+
+Serial.println(B_DC);
+  
 
 }
