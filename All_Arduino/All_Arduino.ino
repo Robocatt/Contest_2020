@@ -33,7 +33,6 @@ Serial.println("]#");
 Serial.print("#S|STEPPERF|[");
 Serial.print(itoa((stepper.currentPosition()*360/4076), buffer, 10));
 Serial.println("]#");
-
 }
     }
 if (stepper.distanceToGo()==0 and n !=1){
@@ -50,6 +49,4 @@ Serial.println("]#");
    j++;
   }
 stepper.run();
-
-
    }

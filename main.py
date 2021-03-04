@@ -36,7 +36,7 @@ y_sorted = df['y'].values
 fig, ax = plt.subplots(figsize=(8, 6))
 plt.title("График зависимости магнитного поля от угла поворота")
 plt.xlabel("Градус поворота, °")
-#Значение индукции магнитного поля
+#мТл? 
 plt.ylabel("Значение индукции магнитного поля, Тл ")
 plt.grid()
 plt.plot(x_sorted,y_sorted,)
