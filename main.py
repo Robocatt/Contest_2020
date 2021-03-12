@@ -1,6 +1,7 @@
 import subprocess
 import numpy as np
 import matplotlib.pyplot as plt
+import matplotlib.ticker as ticker
 import pandas as pd
 
 
@@ -27,17 +28,16 @@ for i in range (len(y)):
 y  = np.array(y)
 
 
-
-
 df = pd.DataFrame({'x': x, 'y': y})
 df_sorted_by_y = df.sort_values(by='y', ascending=True)
 x_sorted = df['x'].values
 y_sorted = df['y'].values
-fig, ax = plt.subplots(figsize=(8, 6))
+fig, ax = plt.subplots(figsize=(10, 10))
+ax.xaxis.set_major_locator(ticker.MultipleLocator(15))
 plt.title("График зависимости магнитного поля от угла поворота")
-plt.xlabel("Градус поворота, °")
+plt.xlabel("Градус поворота магнита, °")
 #мТл? 
-plt.ylabel("Значение индукции магнитного поля, Тл ")
+plt.ylabel("Значение индукции магнитного поля, мТл ")
 plt.grid()
-plt.plot(x_sorted,y_sorted,)
+plt.plot(x_sorted,y_sorted)
 plt.show()
