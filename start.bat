@@ -2,5 +2,5 @@
 
 
 echo off
-TIMEOUT 32 /NOBREAK 
+TIMEOUT 35 /NOBREAK 
 taskkill /f /im Gobetwino.exe

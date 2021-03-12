@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "D:\\Programming\\Miniconda\\python.exe",
+    "python.pythonPath": "C:\\Python38\\python.exe",
     "files.associations": {
         "*.tcc": "cpp",
         "cctype": "cpp",

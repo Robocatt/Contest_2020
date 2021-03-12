@@ -4,8 +4,8 @@
    #define IN3 10
    #define IN4 11
    #define HALL_PIN A0
-   #define nmeas 150      
-   #define cal 0.349*0.58 // calibration constant in mT per ADC count. nominal (5.0/1024)/0.014=0.349:               
+   #define nmeas 125     
+   #define cal 0.349 // calibration constant in mT per ADC count. nominal (5.0/1024)/0.014=0.349:               
    #define PERIOD_1 50
    AccelStepper stepper(8, IN1, IN3, IN2, IN4);
   float offset=511.0; // nominal 511: halfway 0 and 1024
@@ -17,6 +17,7 @@
 
 void setup() {
   Serial.begin(19200);
+  
   pinMode(HALL_PIN,INPUT); //pullup increases current and reduces noise
   stepper.setMaxSpeed(600.0);
   stepper.setAcceleration(600.0);
