@@ -5,7 +5,7 @@
    #define IN4 11
    #define HALL_PIN A0
    #define nmeas 125     
-   #define cal 0.349 // calibration constant in mT per ADC count. nominal (5.0/1024)/0.014=0.349:               
+   #define cal 0.349*0.047 // calibration constant in mT per ADC count. nominal (5.0/1024)/0.014=0.349:               
    #define PERIOD_1 50
    AccelStepper stepper(8, IN1, IN3, IN2, IN4);
   float offset=511.0; // nominal 511: halfway 0 and 1024
@@ -24,6 +24,7 @@ void setup() {
 }
 
 void loop() {
+
   if (G == 0)
   {
     stepper.move(4076);

@@ -27,13 +27,12 @@ for i in range (len(y)):
     y[i]=float(y[i])   
 
 
-print(len(x),len(y))
+
 if len(x) != len(y):
     if len(x)> len(y):
         x.pop(len(x)-1)
     else:
         y.pop(len(y)-1)
-print(len(x),len(y))
 
 x =np.array(x)
 y  = np.array(y)
@@ -42,11 +41,10 @@ df = pd.DataFrame({'x': x, 'y': y})
 df_sorted_by_y = df.sort_values(by='y', ascending=True)
 x_sorted = df['x'].values
 y_sorted = df['y'].values
-fig, ax = plt.subplots(figsize=(10, 10))
+fig, ax = plt.subplots(figsize=(16, 9))
 ax.xaxis.set_major_locator(ticker.MultipleLocator(15))
 plt.title("График зависимости магнитного поля от угла поворота")
 plt.xlabel("Градус поворота магнита, °")
-#мТл? 
 plt.ylabel("Значение индукции магнитного поля, мТл ")
 plt.grid()
 plt.plot(x_sorted,y_sorted)
